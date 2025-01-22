@@ -124,6 +124,9 @@
 # TouchFeature
 /(odm|vendor/odm|system/vendor)/bin/hw/vendor\.xiaomi\.hw\.touchfeature-service                        u:object_r:hal_touchfeature_xiaomi_default_exec:s0
 
+# Secure Element
+/(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hardware\.secure_element-service                        u:object_r:hal_secure_element_default_exec:s0
+
 # Thermal
 /(vendor|system/vendor)/bin/mi_thermald                                                                u:object_r:vendor_mi_thermald_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.thermal-service\.pixel                               u:object_r:hal_thermal_default_exec:s0
