@@ -891,6 +891,11 @@ odm/lib64/libarcsoft_turbo_fusion_raw_super_night.so
 odm/lib64/libarcsoft_turbo_hdr_detection.so
 odm/lib64/libarcsoft_turbo_sr_detection.so
 
+# Camera Extensions
+system_ext/framework/camerax-vendor-extensions.jar:system/framework/camerax-vendor-extensions.jar;BOOT_JAR
+vendor/etc/permissions/camera_extensions.xml
+vendor/framework/androidx.camera.extensions.impl.jar
+
 # Camera-bin
 vendor/bin/camera_cal
 vendor/bin/cameratest
@@ -902,12 +907,10 @@ odm/etc/camera/102_SummerDay.png
 odm/etc/camera/103_Fantasy.png
 odm/etc/camera/104_Meet.png
 odm/etc/camera/105_WindSing.png
-odm/etc/camera/106_Lost.png
 odm/etc/camera/107_Central.png
 odm/etc/camera/108_NorthernEurope.png
 odm/etc/camera/109_Rome.png
 odm/etc/camera/110_BlackGold.png
-odm/etc/camera/111_GreenOrange.png
 odm/etc/camera/112_CyberPunk.png
 odm/etc/camera/113_BlackIce.png
 odm/etc/camera/121_Bleach.png

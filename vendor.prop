@@ -71,6 +71,7 @@ vendor.connsys.driver.ready=no
 
 # Camera
 camera.disable_zsl_mode=1
+ro.camerax.extensions.enabled=true
 ro.vendor.camera.directfdyuv.support=1
 ro.vendor.camera3.zsl.project=400
 ro.vendor.camera.insensorzoom.support=0
