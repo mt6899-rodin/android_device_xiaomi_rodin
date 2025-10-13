@@ -135,6 +135,7 @@ ro.vendor.sensors.xiaomi.udfps=true
 
 # Graphics
 debug.graphics.game_default_frame_rate.disabled=true
+persist.sys.activity_anim_perf_override=false
 ro.hardware.egl=meow
 ro.hardware.gralloc=common
 ro.hardware.hwcomposer=mtk_common
