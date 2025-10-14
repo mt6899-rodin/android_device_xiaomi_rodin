@@ -7,6 +7,7 @@ genfscon sysfs /class/fs16xx/fsm_f0 u:object_r:sysfs_fsm_f0:s0
 # Camera
 genfscon proc /c2ps u:object_r:proc_c2ps:s0
 genfscon proc /ppb u:object_r:proc_ppb:s0
+genfscon proc /mv u:object_r:procfs_memory:s0
 
 # Display
 genfscon sysfs /devices/virtual/mi_display/disp_feature/disp-DSI-0/brightness_clone                   u:object_r:vendor_displayfeature_sysfs:s0

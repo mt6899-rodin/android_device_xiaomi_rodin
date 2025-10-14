@@ -1,4 +1,5 @@
 binder_call(system_app, mtk_hal_camera)
+get_prop(mtk_hal_camera, camera_config_prop)
 
 r_dir_file(mtk_hal_camera, camera_persist_file)
 r_dir_file(mtk_hal_camera, persist_data_file)
@@ -7,6 +8,7 @@ r_dir_file(mtk_hal_camera, vendor_camera_update_db_file)
 
 allow mtk_hal_camera proc_pressure_mem:file rw_file_perms;
 allow mtk_hal_camera vendor_camera_data_file:dir rw_dir_perms;
+allow mtk_hal_camera vendor_camera_data_file:dir create;
 allow mtk_hal_camera vendor_camera_data_file:file create_file_perms;
 allow mtk_hal_camera proc_c2ps:dir r_dir_perms;
 allow mtk_hal_camera proc_c2ps:file r_file_perms;
@@ -16,5 +18,8 @@ allow mtk_hal_camera proc_ppb:file { ioctl read write getattr lock append map op
 allow mtk_hal_camera hal_aidlbgservice_service:service_manager find;
 allow mtk_hal_camera hal_dynamic_camera_service:service_manager find;
 allow mtk_hal_camera mtk_hal_mali_platform_default_service:service_manager find;
+allow mtk_hal_camera hal_mtk_uievent_service:service_manager find;
 allow mtk_hal_camera hal_graphics_allocator_default_tmpfs:file { ioctl read write getattr lock append map open watch watch_reads };
 allowxperm mtk_hal_camera hal_graphics_allocator_default_tmpfs:file ioctl { 0x6201 };
+allow mtk_hal_camera procfs_memory:file { ioctl read write getattr lock append map open watch watch_reads };
+allow mtk_hal_camera procfs_memory:dir search;

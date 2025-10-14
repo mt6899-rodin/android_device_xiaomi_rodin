@@ -37,6 +37,7 @@
 /odm/lib(64)?/libmiSAT\.so u:object_r:same_process_hal_file:s0
 /odm/lib(64)?/libmpbase\.so u:object_r:same_process_hal_file:s0
 /odm/lib(64)?/librfs_warp\.so u:object_r:same_process_hal_file:s0
+/vendor/etc/camera/beauty/libarcsoft_beautyshot\.so u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libapu_mdw_batch\.so u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libapu_mdw\.so u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libapusys\.so u:object_r:same_process_hal_file:s0

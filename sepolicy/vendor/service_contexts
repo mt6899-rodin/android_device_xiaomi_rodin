@@ -2,6 +2,7 @@
 vendor.xiaomi.hardware.aidlbgservice.IBGService/default           u:object_r:hal_aidlbgservice_service:s0
 vendor.xiaomi.hardware.camera.injection.ICameraInjectionService/default u:object_r:hal_dynamic_camera_service:s0
 vendor.xiaomi.hardware.camera.synthetic.IVirtualCameraRegistrar/default u:object_r:hal_dynamic_camera_service:s0
+vendor.mediatek.hardware.camera.uievent.IUIEvent/default u:object_r:hal_mtk_uievent_service:s0
 
 # Display
 vendor.xiaomi.hardware.displayfeature_aidl.IDisplayFeature/default       u:object_r:vendor_hal_displayfeature_service:s0
