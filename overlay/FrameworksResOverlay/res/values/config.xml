@@ -384,6 +384,9 @@
          config_defaultPeakRefreshRate will act as the default frame rate. -->
     <integer name="config_defaultRefreshRate">0</integer>
 
+     <!-- Display mode mapping -->
+    <bool name="config_adjustDisplayModeId">true</bool>
+
     <!-- Controls the navigation bar interaction mode:
          0: 3 button mode (back, home, overview buttons)
          1: 2 button mode (back, home buttons + swipe up for overview)
