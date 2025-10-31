@@ -26,7 +26,7 @@
     <string name="dolby_stereo_widening">Ampliación estéreo</string>
     <string name="dolby_volume_leveler">Nivelador de volumen</string>
     <string name="dolby_connect_headphones">Conecta los audífonos</string>
-    <string name="dolby_reset_profile">Restaurar predeterminados</string>
+    <string name="dolby_reset_profile">Restaurar ajustes predeterminados</string>
     <string name="dolby_reset_profile_toast">Se han restablecido correctamente los ajustes del perfil %1$s</string>
 
     <!-- Dolby profiles -->
