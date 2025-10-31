@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Thermal profiles -->
+    <string name="thermal_title">Perfiles térmicos</string>
+    <string name="thermal_summary">Ajuste los perfiles térmicos de cada aplicación para obtener un rendimiento óptimo.</string>
+    <string name="thermal_default">Sin optimizacion</string>
+    <string name="thermal_benchmark">Rendimiento</string>
+    <string name="thermal_browser">Navegador</string>
+    <string name="thermal_camera">Cámara</string>
+    <string name="thermal_dialer">Teléfono</string>
+    <string name="thermal_gaming">Gaming</string>
+    <string name="thermal_streaming">Streaming</string>
+
+    <!-- Per-app refresh rate -->
+    <string name="refresh_title">Frecuencia de actualización por aplicación test2</string>
+    <string name="refresh_summary">Establece la frecuencia de actualización máxima para una aplicación específica</string>
+    <string name="refresh_default">Default</string>
+    <string name="refresh_standard">60Hz</string>
+    <string name="refresh_extreme">120Hz</string>
+
+    <!-- Doze Strings -->
+    <string name="doze_brightness_low">Brillo bajo</string>
+    <string name="doze_brightness_high">Brillo alto</string>
+    <string name="doze_brightness_adaptive">Brillo adaptativo</string>
+    <string name="doze_brightness_title">Nivel de brillo "Doze"</string>
+    <string name="doze_brightness_summary">Nivel de brillo de la pantalla de pulso de reposo (% del brillo máximo permitido)</string>
+
+    <!-- Clear Speaker -->
+   <string name="clear_speaker_title">Limpieza de altavoz</string>
+   <string name="clear_speaker_summary">Reproduce un audio de 30 segundos para limpiar el altavoz.</string>
+   <string name="clear_speaker_description">Ejecute esta función una o dos veces si observa que el altavoz está ligeramente obstruido por polvo. Ajuste el volumen multimedia al máximo. Si el altavoz está muy obstruido, ejecute esta función entre 2 y 5 veces mientras agita el dispositivo con el altavoz hacia abajo.</string>
+
+    <!-- Strings related to High Touch Polling -->
+    <!-- Title for the High Touch Responsiveness feature -->
+    <string name="htsr_title">Mayor sensibilidad táctil</string>
+
+    <!-- Title for enabling High Touch Polling Rate -->
+    <string name="htsr_enable_title">Habilitar frecuencia de sondeo alta</string>
+
+    <!-- Description for High Touch Polling Rate -->
+    <string name="htsr_enable_summary">
+        Aumenta la frecuencia de sondeo táctil para reducir la latencia de entrada, lo que proporciona una experiencia de usuario más fluida y con mayor capacidad de respuesta.
+    </string>
+</resources>
